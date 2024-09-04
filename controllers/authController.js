@@ -2,6 +2,7 @@
 
 const User = require('../models/user');
 const Role = require('../models/role');
+const rbacMiddleware = require('../middleware/rbacMiddleware');
 
 // Register a new user with a role
 exports.registerUser = (req, res) => {

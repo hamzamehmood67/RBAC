@@ -20,7 +20,6 @@
       {
         "name": "employee",
         "permissions": [
-          "create_record",
           "read_record"
         ]
       }
